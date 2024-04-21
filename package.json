@@ -2,8 +2,7 @@
   "name": "e-tender",
   "version": "0.0.0",
   "scripts": {
-    "ng": "ng",
-    "start": "npm run start:main",
+    "run:all": "node node_modules/@angular-architects/module-federation/src/server/mf-dev-server.js",
     "start:main": "ng serve main  -o --port 5000",
     "start:market": "ng serve market -o --port 3000",
     "build": "ng build",

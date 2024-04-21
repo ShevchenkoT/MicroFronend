@@ -1,9 +1,11 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { HomeComponent } from './layout/components/home/home.component';
 
 const routes: Routes = [
-  {path: '', component: HomeComponent, pathMatch: 'full'}
+  {
+    path: '',
+    loadChildren: () => import('./modules/market/market.module').then(m => m.MarketModule)
+  }
 ];
 
 @NgModule({
