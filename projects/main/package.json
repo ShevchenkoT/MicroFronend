@@ -1,5 +1,5 @@
 {
-  "name": "e-tender",
+  "name": "main",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -10,7 +10,6 @@
   },
   "private": true,
   "dependencies": {
-    "@angular-architects/module-federation": "^14.3.14",
     "@angular/animations": "^14.2.0",
     "@angular/common": "^14.2.0",
     "@angular/compiler": "^14.2.0",
