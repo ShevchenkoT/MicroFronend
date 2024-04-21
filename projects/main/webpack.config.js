@@ -3,7 +3,7 @@ const {shareAll, withModuleFederationPlugin} = require('@angular-architects/modu
 module.exports = withModuleFederationPlugin({
 
   remotes: {
-    "market": "http://localhost:3000/remoteEntry.js",
+    "market": "http://localhost:4201/remoteEntry.js",
   },
 
   shared: {

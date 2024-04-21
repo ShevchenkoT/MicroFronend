@@ -5,7 +5,7 @@ module.exports = withModuleFederationPlugin({
   name: 'market',
 
   exposes: {
-    './Module': './projects/market/src/app/modules/market/market.module.ts',
+    './module': './projects/market/src/app/modules/market/market.module.ts',
   },
 
   shared: {
